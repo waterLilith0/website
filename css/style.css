@@ -39,6 +39,14 @@ p {
     font-size: 2vh;
 }
 
+#main {
+    margin-top: 13vh;
+}
+
+#main h1 {
+    font-size: 10vh;
+}
+
 a {
     text-decoration: none;
 }

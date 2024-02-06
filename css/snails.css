@@ -1,0 +1,59 @@
+html {
+    font-size: 2vh;
+    line-height: 1.4;
+    font-family: Arial;
+    text-align: center;
+    color: cadetblue;
+    background-color: #333333;
+}
+
+#top {
+    background-color: black;
+    left: 0;
+    top: 0;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+}
+
+#top a {
+    color: white;
+    background-color: gray;
+    padding: 3.6vh;
+    float: left;
+    text-decoration: none;
+}
+
+#top a:hover {
+    background-color: #555555;
+}
+
+#top a img {
+    height: 5vh;
+    width: 5vh;
+    left: 0;
+    top: 0;
+    margin: -1.7vh;
+}
+
+p {
+    font-size: 2vh;
+}
+
+#main {
+    margin-top: 13vh;
+}
+
+#main h1 {
+    font-size: 10vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100vw;
+    height: 100vw;
+}
+
