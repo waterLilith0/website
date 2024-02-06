@@ -1,48 +1,45 @@
 html {
-    color: #FFFFFF;
-    font-size: 1em;
+    font-size: 2vh;
     line-height: 1.4;
-}
-
-h1 {
+    font-family: Arial;
     text-align: center;
-}
-
-body {
-    background-image: url("/img/lovegradient.png");
-    background-size: cover;
+    color: #333F4F;
 }
 
 #top {
-    background-color: #999999;
+    background-color: #333F4F;
     left: 0;
     top: 0;
-    height: 10%;
-    width: 100%;
+    height: 10vh;
+    width: 100vw;
     position: fixed;
 }
 
-td {
-    font-size: 150%;
-    background-color: #FFFFFFls;
-    padding-inline: 50px;
+#top a {
+    color: white;
+    background-color: gray;
+    padding: 3.6vh;
+    float: left;
+    text-decoration: none;
 }
 
-#icon {
-    height: 70px;
-    width: 70px;
+#top a:hover {
+    background-color: #555555;
 }
 
-#mainFrame {
-    width: 100%;
-    margin-top: 10%;
-    left: 0px;
-    top: 0px;
-    border-style: hidden;
-    position: absolute;
+#top a img {
+    height: 5vh;
+    width: 5vh;
+    left: 0;
+    top: 0;
+    margin: -1.7vh;
+}
+
+p {
+    font-size: 2vh;
 }
 
 a {
-    color: white;
+    text-decoration: none;
 }
 
