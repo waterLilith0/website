@@ -1,0 +1,74 @@
+html {
+    font-size: 2vw;
+    text-align: center;
+    font-family: Gabriola;
+    color: white;
+}
+
+a {
+    color: lightblue;
+}
+
+body {
+    background-color: #854332;
+}
+
+table {
+    width: 70vw;
+    margin-inline: 10vw;
+}
+
+#wMain {
+    text-align: center;
+}
+
+#p1, #p2, #p3 {
+    height: 5vw;
+    position: relative;
+    z-index: 1;
+    margin-inline: 30px;
+}
+
+#kitty1, #kitty2 {
+    height: 10vw;
+    position: relative;
+    z-index: 0;
+    margin-inline: -10vw;
+    margin-bottom: 1vw;
+}
+
+#commFrame1, #commFrame2, #commFrame3, #commFrame4 {
+    margin-inline: 10vw;
+    height: 45vw;
+    background-color: #400D00;
+    color: white;
+
+}
+
+#commFrame1 img {
+    float: left;
+    height: 40vw;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+}
+
+#commFrame2 img {
+    float: left;
+    height: 40vw;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+}
+
+#commFrame3 img {
+    float: left;
+    height: 40vw;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+}
+
+#commFrame4 img {
+    float: left;
+    height: 40vw;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+}
