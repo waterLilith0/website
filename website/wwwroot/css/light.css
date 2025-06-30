@@ -1,0 +1,490 @@
+/* Light Mode Styles */
+
+/* Base Theme Styles */
+.light-mode {
+  background-color: #f4f8f9; /* Page BG */
+  color: #003333;            /* Primary Text */
+}
+
+  .light-mode a {
+    color: #e600e6;            /* Highlight Color (Links) */
+  }
+  .light-mode a:hover {
+    color: #c000c0;            /* Highlight Hover/Active */
+  }
+
+  .light-mode .card,
+  .light-mode .panel {
+    background-color: #ffffff; /* Card BG (White) */
+    border-color: #b3f0f0;     /* Border Color (Very light teal) */
+    color: #003333;            /* Primary Text */
+  }
+
+  /* --- Light Mode Materialize Overrides --- */
+  /* Navbar */
+  .light-mode .nav-wrapper,
+  .light-mode .nav-wrapper.teal, /* Handles gallery.html nav */
+  .light-mode .nav-wrapper.primary-color {
+    background-color: #4dffff !important; /* Main Theme Color for Components (Light Aqua) */
+  }
+
+    .light-mode .nav-wrapper a,
+    .light-mode .nav-wrapper i,
+    .light-mode .nav-wrapper.teal a,
+    .light-mode .nav-wrapper.teal i,
+    .light-mode .nav-wrapper.primary-color a,
+    .light-mode .nav-wrapper.primary-color i {
+      color: #003333 !important;       /* Primary Text for nav items */
+    }
+    .light-mode .nav-wrapper a:hover {
+      color: #001a1a !important;      /* Darker variant of primary text for hover */
+    }
+
+  .light-mode .brand-logo {
+    color: #003333 !important;       /* Primary Text */
+  }
+   .light-mode .brand-logo:hover {
+    color: #001a1a !important;
+   }
+
+  /* Footer */
+  .light-mode .footer.page-footer,
+  .light-mode .page-footer.teal,
+  .light-mode .page-footer.primary-color {
+    background-color: #4dffff !important; /* Main Theme Color for Components */
+    color: #007777 !important;          /* Muted Text for footer */
+  }
+
+    .light-mode .footer.page-footer a,
+    .light-mode .page-footer.teal a,
+    .light-mode .page-footer.primary-color a {
+      color: #e600e6 !important;        /* Highlight Color */
+    }
+    .light-mode .footer.page-footer a:hover {
+      color: #c000c0 !important;     /* Highlight Hover/Active */
+    }
+
+    .light-mode .footer.page-footer .footer-copyright,
+    .light-mode .footer-copyright.teal.lighten-3,
+    .light-mode .footer-copyright.primary-color-dark {
+      background-color: #2cdcdc !important; /* Slightly Darker Main Theme */
+      color: #003333 !important;          /* Primary Text */
+    }
+
+  /* Main Content Container (Specific override if it has teal/primary-color) */
+  .light-mode .container.teal.lighten-2,
+  .light-mode .container.primary-color-light {
+    background-color: #f4f8f9 !important; /* Page BG (if different from body) */
+    color: #003333 !important;            /* Primary Text */
+  }
+
+/* Sidenav Styles */
+.light-mode .sidenav {
+  background-color: #e0ffff; /* Very light aqua, slightly different from main component aqua */
+}
+.light-mode .sidenav li > a,
+.light-mode .sidenav li > a > i.material-icons,
+.light-mode .sidenav li > a > i.fa-brands {
+  color: #003333;            /* Primary Text */
+}
+.light-mode .sidenav li:hover {
+  background-color: #c0fafa; /* Slightly darker aqua for hover */
+}
+.light-mode .sidenav li.divider {
+  background-color: #b3f0f0; /* Border Color */
+}
+
+/* Galleria Theme Styles */
+.light-mode .galleria-theme-folio {
+  color: #003333;            /* Primary Text */
+}
+.light-mode .galleria-theme-folio .galleria-stage {
+  background-color: #e0ffff; /* Very light aqua for stage */
+}
+.light-mode .galleria-theme-folio .galleria-thumbnails .galleria-image {
+  background-color: #ffffff; /* White */
+  border: 1px solid #b3f0f0; /* Border Color */
+}
+.light-mode .galleria-theme-folio .galleria-thumbnails .galleria-image:hover {
+  background-color: #f0fefe;
+  border-color: #80eaea;
+}
+.light-mode .galleria-theme-folio .galleria-thumb-selected .galleria-image,
+.light-mode .galleria-theme-folio .galleria-thumbnails .galleria-image.active {
+  border-color: #e600e6;     /* Highlight Color */
+}
+.light-mode .galleria-theme-folio .galleria-loader {
+  background-color: rgba(200, 250, 250, 0.7); /* Light aqua, semi-transparent */
+}
+.light-mode .galleria-theme-folio .galleria-loader img {
+    filter: invert(1);
+}
+.light-mode .galleria-theme-folio .galleria-info {
+  background-color: rgba(77, 255, 255, 0.85); /* Main Theme Color, semi-transparent */
+  color: #003333;
+  border: 1px solid #2cdcdc;
+}
+.light-mode .galleria-theme-folio .galleria-info-description {
+  color: #007777;            /* Muted Text */
+}
+.light-mode .galleria-theme-folio .galleria-plus {
+  background-color: rgba(77, 255, 255, 0.7);
+  color: #003333;
+}
+.light-mode .galleria-theme-folio .galleria-plus span {
+  background-color: rgba(224, 255, 255, 0.5); /* Very light aqua, semi-transparent */
+  color: #003333;
+  border: 1px solid #b3f0f0;
+}
+.light-mode .galleria-theme-folio .galleria-close,
+.light-mode .galleria-theme-folio .galleria-image-nav-left,
+.light-mode .galleria-theme-folio .galleria-image-nav-right {
+  filter: invert(1);
+}
+.light-mode .galleria-theme-folio .galleria-image-nav-left:hover,
+.light-mode .galleria-theme-folio .galleria-image-nav-right:hover {
+  filter: invert(1) brightness(0.8);
+}
+.light-mode .galleria-theme-folio .galleria-counter {
+  color: #003333;
+}
+.light-mode .galleria-theme-folio .galleria-preloader {
+  background-color: rgba(0, 51, 51, 0.1); /* Primary Text, very transparent */
+}
+.light-mode .galleria-theme-folio .galleria-loaded {
+  background-color: #e600e6; /* Highlight Color */
+}
+.light-mode .galleria-lightbox-content {
+  background-color: #ffffff;
+  color: #003333;
+  border: 1px solid #b3f0f0;
+}
+.light-mode .galleria-lightbox-image {
+  border-color: #c0fafa;
+}
+.light-mode .galleria-lightbox-close {
+  filter: invert(1);
+}
+
+/* Lightgallery Overrides */
+.light-mode .lg-backdrop {
+  background-color: rgba(244, 248, 249, 0.85); /* Page BG, semi-transparent */
+}
+.light-mode .lg-outer .lg-content {
+  background-color: #ffffff; /* White */
+}
+.light-mode .lg-toolbar {
+  background-color: rgba(77, 255, 255, 0.95); /* Main Theme Color, more opaque */
+}
+.light-mode .lg-toolbar .lg-icon {
+  color: #003333;            /* Primary Text */
+}
+.light-mode .lg-toolbar .lg-icon:hover {
+  color: #e600e6;            /* Highlight Color */
+}
+.light-mode .lg-sub-html {
+  background-color: rgba(77, 255, 255, 0.85);
+  color: #003333;
+}
+.light-mode .lg-outer .lg-img-wrap .lg-image {
+  border: 4px solid #c0fafa;
+}
+.light-mode .lg-outer .lg-thumb-outer .lg-thumb-item {
+  border: 2px solid transparent;
+  background-color: #e0ffff;
+}
+.light-mode .lg-outer .lg-thumb-outer .lg-thumb-item.active,
+.light-mode .lg-outer .lg-thumb-outer .lg-thumb-item:hover {
+  border-color: #e600e6;     /* Highlight Color */
+}
+.light-mode .lg-progress-bar .lg-progress {
+  background-color: #e600e6; /* Highlight Color */
+}
+.light-mode .lg-actions .lg-next,
+.light-mode .lg-actions .lg-prev {
+  color: #003333;
+  background-color: rgba(77, 255, 255, 0.5);
+}
+.light-mode .lg-actions .lg-next:hover,
+.light-mode .lg-actions .lg-prev:hover {
+  color: #e600e6;            /* Highlight Color */
+}
+
+/* Custom Scrollbar */
+.light-mode ::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+.light-mode ::-webkit-scrollbar-track {
+  background: #f4f8f9;       /* Page BG */
+}
+.light-mode ::-webkit-scrollbar-thumb {
+  background-color: #b3f0f0; /* Border Color (Very light teal) */
+  border-radius: 6px;
+  border: 3px solid #f4f8f9; /* Page BG */
+}
+.light-mode ::-webkit-scrollbar-thumb:hover {
+  background-color: #80eaea; /* Slightly darker teal */
+}
+
+/* Custom Text Selection */
+.light-mode ::selection {
+  background-color: #e600e6; /* Highlight Color */
+  color: #ffffff;            /* White text on highlight */
+}
+.light-mode ::-moz-selection {
+  background-color: #e600e6;
+  color: #ffffff;
+}
+
+/* Buttons */
+.light-mode .btn,
+.light-mode .btn-large,
+.light-mode .btn-small {
+  background-color: #e600e6; /* Highlight Color */
+  color: #ffffff;            /* Primary Button Text */
+}
+  .light-mode .btn:hover,
+  .light-mode .btn-large:hover,
+  .light-mode .btn-small:hover {
+    background-color: #c000c0; /* Highlight Hover/Active */
+  }
+.light-mode .btn-floating {
+  background-color: #e600e6;
+}
+  .light-mode .btn-floating i {
+    color: #ffffff;
+  }
+  .light-mode .btn-floating:hover {
+    background-color: #c000c0;
+  }
+  .light-mode .btn-floating.black { /* FAB specific, ensure it uses new highlight */
+    background-color: #e600e6 !important;
+  }
+    .light-mode .btn-floating.black:hover {
+      background-color: #c000c0 !important;
+    }
+.light-mode .btn-flat {
+  color: #e600e6;            /* Highlight Color */
+}
+  .light-mode .btn-flat:hover,
+  .light-mode .btn-flat:focus {
+    background-color: rgba(230, 0, 230, 0.1); /* Highlight with low alpha */
+  }
+
+/* Forms */
+.light-mode input:not([type]),
+.light-mode input[type=text]:not(.browser-default),
+/* ... (all other input types) ... */
+.light-mode textarea.materialize-textarea {
+  color: #003333;            /* Primary Text */
+  border-bottom: 1px solid #b3f0f0; /* Border Color */
+  background-color: transparent;
+}
+  .light-mode input:not([type]):focus:not([readonly]),
+  .light-mode input[type=text]:not(.browser-default):focus:not([readonly]),
+  /* ... (all other input types) ... */
+  .light-mode textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #e600e6; /* Highlight Color for focus */
+    box-shadow: 0 1px 0 0 #e600e6;
+  }
+    .light-mode input:not([type]):focus:not([readonly]) + label,
+    .light-mode input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+    /* ... (all other input types) ... */
+    .light-mode textarea.materialize-textarea:focus:not([readonly]) + label {
+      color: #e600e6;          /* Highlight Color for label on focus */
+    }
+.light-mode ::-webkit-input-placeholder { color: #007777; } /* Muted Text */
+.light-mode :-moz-placeholder { color: #007777; opacity: 1; }
+.light-mode ::-moz-placeholder { color: #007777; opacity: 1; }
+.light-mode :-ms-input-placeholder { color: #007777; }
+.light-mode ::-ms-input-placeholder { color: #007777; }
+.light-mode ::placeholder { color: #007777; }
+
+.light-mode .select-wrapper input.select-dropdown {
+  color: #003333;
+  border-bottom: 1px solid #b3f0f0;
+}
+.light-mode .dropdown-content {
+  background-color: #ffffff; /* White */
+}
+  .light-mode .dropdown-content li > a,
+  .light-mode .dropdown-content li > span {
+    color: #003333;
+  }
+  .light-mode .dropdown-content li:hover,
+  .light-mode .dropdown-content li.active {
+    background-color: #e0ffff; /* Very light aqua */
+  }
+.light-mode .select-wrapper .caret {
+  fill: #003333;
+}
+
+/* Checkboxes & Radios */
+.light-mode [type="checkbox"] + span:not(.lever):before {
+  border: 2px solid #007777; /* Muted Text */
+}
+.light-mode [type="checkbox"]:checked + span:not(.lever):before {
+  border: 2px solid transparent;
+  border-right: 2px solid #e600e6; /* Highlight Color */
+  border-bottom: 2px solid #e600e6;
+}
+.light-mode [type="checkbox"].filled-in:checked + span:not(.lever):after {
+  background-color: #e600e6;
+  border-color: #e600e6;
+}
+.light-mode [type="checkbox"].filled-in + span:not(.lever):after {
+  border-color: #007777;
+}
+.light-mode [type="radio"]:not(:checked) + span:before,
+.light-mode [type="radio"]:not(:checked) + span:after {
+  border: 2px solid #007777;
+}
+.light-mode [type="radio"]:checked + span:after,
+.light-mode [type="radio"].with-gap:checked + span:before,
+.light-mode [type="radio"].with-gap:checked + span:after {
+  border: 2px solid #e600e6;
+}
+.light-mode [type="radio"]:checked + span:after,
+.light-mode [type="radio"].with-gap:checked + span:after {
+  background-color: #e600e6;
+}
+
+/* Switches */
+.light-mode .switch label input[type=checkbox]:checked + .lever {
+  background-color: #ffb3ff; /* Lighter pink for track when on */
+}
+  .light-mode .switch label input[type=checkbox]:checked + .lever:after {
+    background-color: #e600e6;  /* Highlight Color (thumb when on) */
+  }
+.light-mode .switch label .lever {
+  background-color: #b3f0f0;   /* Border color (track when off) */
+}
+  .light-mode .switch label .lever:after {
+    background-color: #e0ffff;   /* Very light aqua (thumb when off) */
+  }
+
+/* Range Inputs */
+.light-mode input[type=range]::-webkit-slider-thumb { background: #e600e6; }
+.light-mode input[type=range]::-moz-range-thumb { background: #e600e6; }
+.light-mode input[type=range]::-ms-thumb { background: #e600e6; }
+.light-mode input[type=range] + .thumb .value { color: #003333; }
+.light-mode input[type=range]::-webkit-slider-runnable-track { background: #b3f0f0; }
+.light-mode input[type=range]::-moz-range-track { background: #b3f0f0; }
+.light-mode input[type=range]::-ms-track { background: #b3f0f0; }
+
+/* Collections */
+.light-mode .collection {
+  background-color: #ffffff; /* White */
+  border: 1px solid #b3f0f0;   /* Border Color */
+}
+  .light-mode .collection .collection-item {
+    background-color: #ffffff;
+    color: #003333;
+    border-bottom: 1px solid #b3f0f0;
+  }
+  .light-mode .collection a.collection-item {
+    color: #e600e6;            /* Highlight Color */
+  }
+    .light-mode .collection a.collection-item:hover {
+      background-color: #e0ffff; /* Very light aqua */
+      color: #c000c0;           /* Highlight Hover/Active */
+    }
+  .light-mode .collection .collection-item.active {
+    background-color: #e600e6;
+    color: #ffffff;            /* Primary Button Text */
+  }
+
+/* Badges */
+.light-mode span.badge.new {
+  background-color: #e600e6; /* Highlight Color */
+  color: #ffffff;
+}
+.light-mode span.badge {
+  color: #003333;
+  background-color: #c0fafa; /* Slightly darker aqua for badge bg */
+}
+
+/* Toasts */
+.light-mode .toast { /* Toasts should have good contrast, often dark on light themes */
+  background-color: #005050; /* Dark Teal from dark theme for contrast */
+  color: #e0f7fa;
+}
+
+/* Modals */
+.light-mode .modal {
+  background-color: #ffffff; /* White */
+  color: #003333;
+}
+.light-mode .modal-footer {
+  background-color: #e0ffff; /* Very light aqua */
+  border-top: 1px solid #b3f0f0; /* Border Color */
+}
+.light-mode .modal .modal-close {
+  color: #003333;
+}
+
+/* Collapsibles */
+.light-mode .collapsible-header {
+  background-color: #ffffff; /* White */
+  color: #003333;
+  border-bottom: 1px solid #b3f0f0;
+}
+.light-mode .collapsible-body {
+  background-color: #e0ffff; /* Very light aqua */
+  color: #003333;
+  border-bottom: 1px solid #b3f0f0;
+}
+
+/* Tabs */
+.light-mode .tabs {
+  background-color: #4dffff; /* Main Theme Color for Components */
+}
+  .light-mode .tabs .tab a {
+    color: rgba(0, 51, 51, 0.7); /* Primary Text, semi-transparent */
+  }
+    .light-mode .tabs .tab a:hover,
+    .light-mode .tabs .tab a.active {
+      color: #e600e6;           /* Highlight Color for active/hover tab text */
+    }
+  .light-mode .tabs .indicator {
+    background-color: #e600e6; /* Highlight Color */
+  }
+
+/* Preloaders/Spinners */
+.light-mode .preloader-wrapper.active .spinner-layer {
+  border-color: #e600e6;     /* Highlight Color */
+}
+.light-mode .preloader-wrapper.active .spinner-blue-only .spinner-layer {
+  border-color: #4dffff !important; /* Main Theme Color */
+}
+.light-mode .preloader-wrapper.active .spinner-red-only .spinner-layer {
+  border-color: #ff77ff !important; /* Secondary Highlight */
+}
+.light-mode .preloader-wrapper.active .spinner-yellow-only .spinner-layer {
+  border-color: #ffcc00 !important; /* A distinct yellow */
+}
+.light-mode .preloader-wrapper.active .spinner-green-only .spinner-layer {
+  border-color: #2cdcdc !important; /* Darker Main Theme */
+}
+
+/* Text helpers */
+.light-mode .white-text { /* Will become main text color on themed (darker) backgrounds */
+  color: #003333 !important;
+}
+.light-mode .black-text { /* Standard dark text */
+  color: #003333 !important;
+}
+.light-mode .grey-text { /* Will become muted text */
+  color: #007777 !important;
+}
+  .light-mode .grey-text.text-lighten-2 { /* Will become highlight */
+    color: #e600e6 !important;
+  }
+  .light-mode .grey-text.text-darken-2 { /* Will become a more prominent muted text or secondary link */
+    color: #c000c0 !important; /* Darker highlight */
+  }
+.light-mode .grey.darken-3 { /* Original body class, now maps to Page BG */
+  background-color: #f4f8f9 !important;
+  color: #003333 !important;
+}

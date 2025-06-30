@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Code', sans-serif;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.galleria {
+  margin-top: 5vh !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+}
+
+.card {
+/*  margin-inline: 1vw;*/
+  display: flex;
+  justify-content: space-evenly;
+}
+
+  .card h1, p {
+    margin-inline: 1vw;
+  }
+
+main {
+  flex-grow: 1;
+  /* Add margin to account for fixed navbar height */
+  /* Materialize default navbar height is 64px on desktop, 56px on mobile */
+  /* Using a general value here, can be adjusted with media queries if needed */
+  margin-top: 64px;
+}
+
+/* Adjust margin for smaller screens if navbar height changes */
+@media only screen and (max-width: 992px) {
+  main {
+    margin-top: 56px;
+  }
+}
